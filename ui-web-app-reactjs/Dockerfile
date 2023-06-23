@@ -4,5 +4,4 @@ COPY . /var/www
 WORKDIR /var/www
 RUN npm install
 EXPOSE 3000
-EXPOSE 31448
 ENTRYPOINT ["npm","start"]
